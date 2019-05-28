@@ -11,7 +11,7 @@ npm i @sunshine_bit/capture
 ## 参数
 
 - `options` [object]
-  - url <string> default: `'https://github.com/l4503071'`,
+  - url <string> default: `'https://github.com/l4503071'`(需要使用`encodeURIComponent`转义)
   - width <number> default: `375`,
   - height <number> default: `667`,
   - deviceScaleFactor <number> default: `2`,
