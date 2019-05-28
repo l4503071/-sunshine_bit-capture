@@ -10,6 +10,7 @@ module.exports = {
       height = 667,
       deviceScaleFactor = 2,
       fileName = 'capture.png',
+      encoding = 'binary',
     } = options;
     const browser = await puppeteer.launch({
       headless: true,  // 无 UI 模式
@@ -32,9 +33,11 @@ module.exports = {
       timeout: 30000,
       waitUntil: 'networkidle2',
     });
-    await page.screenshot({
+    const result = await page.screenshot({
+      encoding,
       path: fileName,
     });
     await browser.close();
+    return result;
   }
 }
