@@ -15,6 +15,7 @@ module.exports = {
     const browser = await puppeteer.launch({
       headless: true,  // 无 UI 模式
       ignoreHTTPSErrors: true,
+      args: ['--no-sandbox', '--disable-setuid-sandbox'],
     });
     const page = await browser.newPage();
     const params = {
