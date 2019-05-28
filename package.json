@@ -1,0 +1,10 @@
+{
+  "name": "@sunshine_bit/capture",
+  "version": "1.0.0",
+  "description": "capture with width and height.",
+  "main": "index.js",
+  "scripts": {
+  },
+  "author": "sunshine",
+  "license": "MIT"
+}
