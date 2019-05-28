@@ -1,6 +1,6 @@
 {
   "name": "@sunshine_bit/capture",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "capture with width and height.",
   "main": "index.js",
   "scripts": {},
