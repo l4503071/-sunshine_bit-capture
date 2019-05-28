@@ -5,8 +5,16 @@
   "main": "index.js",
   "scripts": {},
   "author": "sunshine",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/l4503071/capture.git"
+  },
   "license": "MIT",
   "dependencies": {
     "puppeteer": "^1.17.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/l4503071/capture/issues"
+  },
+  "homepage": "https://github.com/l4503071/capture#readme"
 }
