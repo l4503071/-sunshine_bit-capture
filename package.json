@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "capture with width and height.",
   "main": "index.js",
-  "scripts": {
-  },
+  "scripts": {},
   "author": "sunshine",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^1.17.0"
+  }
 }
