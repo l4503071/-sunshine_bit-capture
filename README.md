@@ -26,7 +26,7 @@ npm i @sunshine_bit/capture
 
 ```js
 const capture = require('@sunshine_bit/capture');
-capture({
+capture.capture({
   encoding: 'base64',
 }).then((data)=>{
   console.log(data)
